@@ -1,0 +1,163 @@
+/*Ing.Informatica - estilo principal*/
+
+/*Globales*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 70px;
+    padding-bottom: 400px;
+}
+
+.titulo-de-pagina{
+    text-align: center;
+}
+
+.errores{
+    padding: 20px 30px;
+    /* color: #A94442;
+    background: #FFF;
+    border: none;
+    border-radius: 5px; */
+}
+
+.error{
+    color: #F00;
+
+}
+
+@media only screen and (min-width: 768px){
+    body{
+        padding-bottom: 200px;
+    }
+
+}
+
+
+/*Pie*/
+footer{
+    color: #AAA;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+footer a{
+    color: #DDD;
+    font-size: 16px; 
+    font-weight: bold;
+
+}
+
+footer a:hover{
+    color: rgb(85, 106, 226);
+
+}
+
+footer div.row > div{
+    margin-bottom: 10px;
+
+}
+footer .enlances-internos{
+    position: relative;
+    bottom: -10px;
+
+}
+footer .iconos-redes-sociales > a{
+    display: inline-block;
+    background: #333;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: #FFF;
+    border-radius: 5px;
+    margin-left: 5px;
+
+}
+@media only screen and (min-width: 768px){
+    footer{
+        text-align: left;
+    }
+    footer div.row > div{
+        margin-bottom: 5px;
+    }
+
+    footer .enlances-internos{
+        bottom: -15px;
+
+    }
+    footer .pie-derecho{
+        text-align: right;
+    }
+
+    footer .iconos-redes-sociales > a{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+/*estilo paagina registro*/
+
+/*#pagina-registro form{
+    border: red thin solid;
+}
+
+#pagina-registro form{
+    border: blue thin solid;
+}*/
+
+
+
+/**********************formularios************************/
+.campo-contenedor .glyphicon{
+    position: absolute;
+    padding: 12px;
+    font-size: 20px;
+    pointer-events: none;
+    z-index: 3;
+}
+
+
+.campo-contenedor .iconoIzquierdo{
+    left: 0;
+}
+
+.campo-contenedor .iconoDerecho{
+    right: 0;
+}
+
+.campo-contenedor input{
+    padding: 0 40px;
+}
+
+.campo-contenedor .far{
+    position: absolute;
+    padding: 12px;
+    font-size: 20px;
+    pointer-events: none;
+    z-index: 3;
+}
+
+.icono-rojo{
+    color: #F00;
+}
+
+.icono-verde{
+    color: #2bff00;
+}
+
+.invalido{
+    color: #f38888;
+}
+
+.valido{
+    color: #69d354;
+}
